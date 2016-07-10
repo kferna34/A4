@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 *Author:                Krytia Fernandez
 *Date Last Modified :   July 09, 2016
 *Description :          Array and List Practice
-*Version:               0.0.0.1 = Added Description       
+*Version:               0.0.0.2 = Added the project's name       
 */
 namespace Assignment04
 {
