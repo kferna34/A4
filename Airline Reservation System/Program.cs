@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 /*
 *Assignment :           04 
 *Author:                Krytia Fernandez
-*Date Last Modified :   July 09, 2016
+*Date Last Modified :   July 11, 2016
 *Description :          Array and List Practice
-*Version:               0.0.0.3 = AIRLINE RESERVATION SYSTEM SWITCH    
+*Version:               0.0.0.4 = fixed the display menu
 */
 namespace Airline_Reservation_System
 {
@@ -17,17 +17,22 @@ namespace Airline_Reservation_System
     {
         static void Main(string[] args)
         {
+            DisplayMenu();
         }
-        static void menu()
+        static void DisplayMenu()
         {
-            Console.WriteLine(" Airline Reservation System ");
-            Console.WriteLine(" Please enter the number you want to do: ");
-            Console.WriteLine(" 1 -  First Class");
-            Console.WriteLine(" 2 -  Economy Class");
-            Console.WriteLine(" 3 -  Exit Reservation System");
             int choice = 0;
             while (choice != 3)
             {
+                Console.WriteLine(" =========== Airline Reservation System ===========");
+                Console.WriteLine(" |                                                |");
+                Console.WriteLine(" |  1 -  First Class                              |");
+                Console.WriteLine(" |  2 -  Economy Class                            |");
+                Console.WriteLine(" |  3 -  Exit Reservation System                  |");
+                Console.WriteLine(" |                                                |");
+                Console.WriteLine(" ==================================================");
+                Console.Write(" Your Choice -> ");
+                choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
                     case 1:
@@ -40,11 +45,10 @@ namespace Airline_Reservation_System
                         Console.WriteLine("==~~==~~ EXIT MENU ~~==~~== ");
                         break;
                     default:
-                        Console.WriteLine("PLEASE ENTER THE RIGHT SELECTION");
+                        Console.WriteLine("PLEASE ENTER A RIGHT SELECTION !!");
                         break;
-                }
-            }
-
-        }
-    }
-}
+                }//switch
+            }//while
+        }//3rd end
+    }//2nd end
+}//end
