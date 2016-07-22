@@ -1,1 +1,6 @@
 C:\Users\fdz\Desktop\summer 2016\Assignment04\Assignment04\bin\Debug\Assignment04.exe.config
+C:\Users\fdz\Desktop\summer 2016\Assignment04\Assignment04\bin\Debug\Assignment04.exe
+C:\Users\fdz\Desktop\summer 2016\Assignment04\Assignment04\bin\Debug\Assignment04.pdb
+C:\Users\fdz\Desktop\summer 2016\Assignment04\Assignment04\obj\Debug\Dice Rolling Simulation.csprojResolveAssemblyReference.cache
+C:\Users\fdz\Desktop\summer 2016\Assignment04\Assignment04\obj\Debug\Assignment04.exe
+C:\Users\fdz\Desktop\summer 2016\Assignment04\Assignment04\obj\Debug\Assignment04.pdb
